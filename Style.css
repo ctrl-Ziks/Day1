@@ -2,6 +2,11 @@ body {
     color: #ffffff;
     background-color: #282323;
     font-family: Arial, sans-serif;
-    text-align: center;
     padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+header{
+    display: flex;
+    align-items: center;
 }
