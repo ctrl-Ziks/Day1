@@ -28,6 +28,10 @@ ul{
 .meni.otvoren{
     display: block;
 }
-.Slika{
+img {
+    max-width: 8%;
+    height: auto;
+}
+.slika{
     padding-right: 60px;
 }
