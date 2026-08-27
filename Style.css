@@ -1,12 +1,33 @@
 body {
     color: #ffffff;
-    background-color: #282323;
+    background-color: #000000;
     font-family: Arial, sans-serif;
     padding: 20px;
+    text-align: center;
+    margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
 }
-header{
+header{  
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+ul{
+    list-style: none;
+}
+.meni{
+    align-items: right;
+    padding-left: 80px;
+    display: none;
+}
+.meni.otvoren{
+    display: block;
+}
+.Slika{
+    padding-right: 60px;
 }
