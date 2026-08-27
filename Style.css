@@ -33,5 +33,10 @@ img {
     height: auto;
 }
 .slika{
-    padding-right: 60px;
+    border-radius: 15px;
+    margin-right: 200px;
+    box-shadow: 0 0 5px #ffffff;
+}
+h1 {
+    cursor: pointer;
 }
