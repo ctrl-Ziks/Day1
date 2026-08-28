@@ -10,7 +10,7 @@ body {
     transition: background-color 0.5s, color 0.5s;
 }
 main {
-    
+    padding-left: 200px;
     margin: 0;
     text-align: center;
     width: 700px;
