@@ -1,18 +1,20 @@
 body {
     display: flex;
     align-items: flex-start;
-    color: #ffffff;
-    background-color: #000000;
+    color: #000000;
+    background-color: #ffffff;
     font-family: Arial, sans-serif;
     padding: 20px;
+    margin: 0;
     text-align: center;
-    margin-top: 40px;
+    
     transition: background-color 0.5s, color 0.5s;
 }
 main {
-    flex: 1;
+    
     margin: 0;
     text-align: center;
+    width: 700px;
 }
 header {
     margin: 0;
@@ -21,7 +23,7 @@ header {
 }
 .sidebaner {
     position: fixed;
-    top: 50px;
+    top: 0;
     left: 0;
     display: flex;
     flex-direction: column;
@@ -29,12 +31,14 @@ header {
     justify-content: flex-start;
     text-align: center;
     width: 300px;
-    height: calc(100vh - 50px);
+    height: calc(100vh - 30px);
     box-sizing: border-box;
     padding: 20px;
-    margin-top: 0;
-    background-color: inherit;
+    margin: 15px;
+    background-color: #050836b9;
+    box-shadow: 10px 15px 10px 10px rgba(134, 133, 133, 0.75);
     overflow: visible;
+    border-radius: 20px;
 }
 a{
     text-decoration: none;
@@ -62,8 +66,15 @@ h1 {
 }
 
 body.crno{
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
+   
+}
+body.crno main{
+    color: rgb(255, 255, 255);
+}
+body.crno .meni-dugme{
+    color: rgb(255, 255, 255);
 }
 .meni-dugme {
     background: none;
@@ -76,6 +87,11 @@ body.crno{
     right: 20px;
 }
 
+.meni-dugme:hover {
+    background-color: #cccccc6c;
+    border-radius: 5px;
+    
+}
 .meni-dugme img {
     width: 30px;
     height: 30px;
