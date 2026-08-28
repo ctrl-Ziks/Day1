@@ -23,27 +23,25 @@
     </button>
     
     <header>
+        <div class="sidebaner">
+            
+            <img class="slika" src="slike/IMG-20250509-WA0011.jpg" alt="slika" >
+            
+            <div class = "naziv">
+                <h1>Aleksa Živković</h1>
+                <p class="zvanje">Inženjer informacionih tehnologija</p>
+            </div>
 
-    <img class="slika" src="slike/IMG-20250509-WA0011.jpg" alt="slika" >
+            <div class="meni">
+                <ul>
+                     <li><a href="index.html">Studiranje</a></li>
+                     <li><a href="O meni.html">O meni</a></li>
+                     <li><a href="Kontakt.html">Kontakt</a></li>
+                </ul>
+             </div>
 
-    <div class = "naziv">
-    <h1 onclick="toggleMeni()">Aleksa Živković</h1>
-    <p class="zvanje">Inženjer informacionih tehnologija</p>
-    </div>
-    <div class="meni" id="meni">
-        <ul>
-            <li><a href="index.html">Studiranje</a></li>
-            <li><a href="O meni.html">O meni</a></li>
-            <li><a href="Kontakt.html">Kontakt</a></li>
-        </ul>
-    </div>
-
+        </div>
     </header>
-
-    <br><br>
-    <br><br>
-    <br><br>
-
 
     <main>
         <h2>Studiranje</h2>
@@ -54,11 +52,7 @@
 
 
 
-    <script>
-        function toggleMeni() {
-            document.getElementById('meni').classList.toggle('otvoren');
-        }
-    </script>
+  
     <script>
         function dark() {
             document.getElementById('stranica').classList.toggle('crno');
