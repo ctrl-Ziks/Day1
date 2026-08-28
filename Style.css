@@ -7,6 +7,7 @@ body {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
+    transition: background-color 0.5s, color 0.5s;
 }
 header{  
     display: flex;
@@ -33,10 +34,30 @@ img {
     height: auto;
 }
 .slika{
-    border-radius: 15px;
+    border-radius: 50px;
     margin-right: 200px;
     box-shadow: 0 0 5px #ffffff;
 }
 h1 {
     cursor: pointer;
+}
+
+body.crno{
+    background-color: #ffffff;
+    color: #000000;
+}
+.meni-dugme {
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.meni-dugme img {
+    width: 30px;
+    height: 30px;
 }
