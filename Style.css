@@ -1,13 +1,12 @@
 body {
     display: flex;
     align-items: flex-start;
-    color: #000000;
-    background-color: #ffffff;
+    color: #1B4F7A;
+    background-color: #B3D4EC;
     font-family: Arial, sans-serif;
     padding: 20px;
     margin: 0;
     text-align: center;
-    
     transition: background-color 0.5s, color 0.5s;
 }
 main {
@@ -35,10 +34,15 @@ header {
     box-sizing: border-box;
     padding: 20px;
     margin: 15px;
-    background-color: #050836b9;
-    box-shadow: 10px 15px 10px 10px rgba(134, 133, 133, 0.75);
+    background-color:#7FB8DE;
+    box-shadow: 10px 10px 5px 5px #618eac;
+    transition: background-color 0.5s ease, box-shadow 0.3s ease;
     overflow: visible;
-    border-radius: 20px;
+    border-radius: 10px;
+}
+body.crno .sidebaner{
+    background-color: #0D2C4A;
+    box-shadow: 10px 10px 5px 5px #091d31;
 }
 a{
     text-decoration: none;
@@ -56,7 +60,7 @@ img {
 }
 .slika{
     border-radius: 50px;
-    box-shadow: 0 0 100px 5px rgba(134, 133, 133, 0.75);
+    box-shadow: 0 0 100px 5px #8eb6d1;
 }
 body.crno .slika {
     box-shadow: none;
@@ -66,15 +70,15 @@ h1 {
 }
 
 body.crno{
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #1B4F7A;
+    color: #B3D4EC;
    
 }
 body.crno main{
-    color: rgb(255, 255, 255);
+    color: #B3D4EC;
 }
 body.crno .meni-dugme{
-    color: rgb(255, 255, 255);
+    color: #B3D4EC;
 }
 .meni-dugme {
     background: none;
@@ -88,7 +92,7 @@ body.crno .meni-dugme{
 }
 
 .meni-dugme:hover {
-    background-color: #cccccc6c;
+    background-color: #549bd1;
     border-radius: 5px;
     
 }
