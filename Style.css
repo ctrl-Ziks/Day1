@@ -1,7 +1,12 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 40px;
+}
+
 body {
     display: flex;
     align-items: flex-start;
-    color: #1B4F7A;
+    color: #000000;
     background-color: #B3D4EC;
     font-family: Arial, sans-serif;
     padding: 20px;
@@ -60,7 +65,7 @@ img {
 }
 .slika{
     border-radius: 50px;
-    box-shadow: 0 0 100px 5px #8eb6d1;
+    box-shadow: 0 0 100px 5px #237ebb;
 }
 body.crno .slika {
     box-shadow: none;
@@ -86,7 +91,7 @@ body.crno .meni-dugme{
     color: inherit;
     cursor: pointer;
     padding: 5px;
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
 }
@@ -99,4 +104,7 @@ body.crno .meni-dugme{
 .meni-dugme img {
     width: 30px;
     height: 30px;
+}
+.bio{
+    display: flex;
 }
